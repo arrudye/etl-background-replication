@@ -11,17 +11,19 @@
 
 ## Запуск:
 ### Файл `.env`:
-`POSTGRES_HOST=postgres
+```POSTGRES_HOST=postgres
 POSTGRES_PORT=5432
 POSTGRES_DB=shop
 POSTGRES_USER=admin
 POSTGRES_PASSWORD=secret
+
 MONGO_HOST=mongodb
 MONGO_PORT=27017
 MONGO_DB=shop_replica
 MONGO_COLLECTION=customers
+
 SYNC_INTERVAL=60
-LOG_LEVEL=INFO`
+LOG_LEVEL=INFO```
 
 ### Запуск контейнеров:
 `docker-compose up --build`
