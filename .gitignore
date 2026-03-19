@@ -1,0 +1,6 @@
+.env
+pg_data/
+mongo_data/
+logs/
+__pycache__/
+last_sync/
