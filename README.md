@@ -23,7 +23,8 @@ MONGO_DB=shop_replica
 MONGO_COLLECTION=customers
 
 SYNC_INTERVAL=60
-LOG_LEVEL=INFO```
+LOG_LEVEL=INFO
+```
 
 ### Запуск контейнеров:
 `docker-compose up --build`
